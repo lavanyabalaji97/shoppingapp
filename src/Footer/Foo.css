@@ -1,0 +1,78 @@
+.footer-color {
+    background-color: #3E402D;
+}
+
+.payments-icons ul {
+    list-style-type: none;
+    display: flex;
+    color: white;
+}
+
+.payments-title {
+    color: white;
+}
+
+.svg-icons {
+    background-color: white;
+}
+
+.payments-title ul {
+    text-decoration: none;
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+.social-icons {
+    display: flex;
+}
+
+.footer-class {
+    padding: 70px 0;
+}
+
+.footer-text {
+    margin: 0px 0px 20px 0px;
+    color: white;
+    padding: 2rem;
+}
+
+.footer-bottom {
+    background-color: black;
+    padding: 20px;
+    color: white;
+
+}
+
+.footer-link a {
+    text-decoration: none;
+    color: white;
+}
+
+.small-title1 {
+    font-size: 16px;
+    font-family: sans-serif;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+.foo-bottom {
+    background-color: #787878;
+}
+
+.india-craft {
+    margin-left: 150px;
+    font-family: FuturaPT-Book;
+}
+
+.curated {
+    margin-right: 150px;
+    font-family: FuturaPT-Book;
+}
+
+@media only screen and (max-width: 768px) {
+    .dropdown-menu {
+        width: 100%;
+    }
+
+}

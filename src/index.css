@@ -11,3 +11,27 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.anchor {
+  text-decoration: none;
+  color: black;
+  font-family: 'Segoe UI';
+}
+
+.anchor p::first-letter {
+  font-size: 18px;
+}
+
+.anchor>img {
+  height: 350px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+@media only screen and (max-width:768px) {
+  .anchor>img {
+    height: 180px;
+  }
+}

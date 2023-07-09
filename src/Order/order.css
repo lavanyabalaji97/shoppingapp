@@ -1,0 +1,84 @@
+.img-data {
+    height: 200px;
+    width: 200px;
+}
+
+.sub-title {
+    font-size: 14px;
+    font-family: sans-serif;
+}
+
+.sub-heading {
+    font-size: 50px;
+    font-family: NYTMagSerifHeadlineWEB-Bold;
+    font-weight: 700;
+    line-height: 50px;
+    margin-bottom: 20px;
+
+}
+
+.sub-para {
+    font-size: 20px;
+    font-family: FuturaPT-Book;
+    font-weight: 400;
+    line-height: 30px;
+    margin-bottom: 30px;
+    margin-right: 180px;
+    margin-bottom: 30px;
+}
+
+.btn-section a {
+    font-size: 20px;
+    padding: 12px 28px;
+    text-decoration: none;
+
+}
+
+.more-btn {
+    background-color: #313323;
+    color: white;
+    margin-right: 10px;
+
+
+}
+
+.touch-btn {
+    border: 1px solid black;
+    color: black;
+
+}
+
+.touch-btn:hover {
+    background-color: black;
+    color: white;
+}
+
+@media only screen and (max-width: 768px) {
+    .sub-para {
+        font-size: 16px;
+        margin-right: 0px;
+    }
+
+    .sub-heading {
+        font-size: 36px;
+    }
+
+    .sub-title {
+        font-size: 14px;
+    }
+
+    .right-content {
+        margin-top: 20px;
+    }
+
+    .more-btn {
+        display: inline-block;
+        width: 100%;
+        margin-bottom: 5px;
+    }
+
+    .touch-btn {
+        display: inline-block;
+        width: 100%;
+    }
+}

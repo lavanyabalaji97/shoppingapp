@@ -1,0 +1,71 @@
+.line {
+    width: 75px;
+    background: #A37F4B;
+    height: 1px;
+    opacity: .5;
+    margin-bottom: 22px;
+}
+
+.product-title a {
+    text-decoration: none;
+    color: black;
+}
+
+.craft-title {
+    font-size: 50px;
+    margin-bottom: 2rem;
+}
+
+.small-title {
+    font-size: 14px;
+}
+
+.craft-para {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    margin-bottom: 35px;
+    text-align: left;
+    font-family: FuturaPT-Book;  
+    padding-right: 50px;
+}
+
+
+.craft-section {
+    padding-top: 0px;
+}
+
+.metal-craft {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 17px;
+    letter-spacing: .1em;
+    text-transform: uppercase;
+    color: #3e402d7d;
+    margin-bottom: 10px;
+}
+
+@media only screen and (max-width:768px) {
+    .craft-title {
+        font-size: 36px;
+        margin-bottom: 12px;
+        font-family: NYTMagSerifHeadlineWEB-Bold;
+        font-weight: 500;
+    }
+
+    .craft-para {
+        margin-bottom: 0px;
+    }
+
+    .dokra-img {
+        height: 200px;
+        width: 149px;
+    }
+
+    .dhokra-btn {
+        position: relative;
+        top: 381px;
+    }
+}

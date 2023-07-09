@@ -1,0 +1,19 @@
+ .girl-images {
+     width: 385px;
+     margin-left: -6px;
+     height: 468px;
+ }
+
+ .image {
+     width: 804px;
+     margin-left: 34px;
+ }
+@media only screen and (max-width: 768px) {
+    .humans{
+        max-width: 100%;
+        margin-bottom: 5px;
+    }
+    .girl{
+        margin-right: 5px;
+    }
+}

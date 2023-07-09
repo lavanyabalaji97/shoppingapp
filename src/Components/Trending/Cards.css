@@ -1,0 +1,60 @@
+.small-title {
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 29px;
+    color: #3e402d;
+    margin-bottom: 10px;
+    width: 100%;
+    text-align: left;
+}
+
+.image-style {
+    height: 350px;
+    width: 280px;
+}
+
+.item-title {
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+}
+
+.halo-style {
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+
+.cards-gap {
+    margin-bottom: 120px;
+}
+
+.main-container {
+    position: relative;
+    width: 18rem !important;
+}
+
+.hearticon {
+    color: white;
+    position: absolute;
+    right: 25px;
+    top: 15px;
+}
+
+@media only screen and (max-width: 768px) {
+    .main-container {
+        width: 10rem;
+    }
+
+    .main-container {
+        width: 50%;
+    }
+
+    .image-style {
+        height: 180px;
+        width: 180px;
+    }
+}
+
+@media only screen and (min-width: 770px) and (max-width: 992px) {}
